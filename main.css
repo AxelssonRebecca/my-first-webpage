@@ -43,7 +43,7 @@ body {
   text-align: center;
 }
   .bio{
-    height: 180vh;
+    height: 178vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -72,7 +72,7 @@ body {
 }
 
 .bio .text {
-  max-width: 500px;
+  max-width: 470px;
   padding: 0px 5px;
   text-align: left;
   flex-direction: column;
