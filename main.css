@@ -28,7 +28,7 @@ body {
 .white-section ::selection,
 .white-section a ::selection,
 .white-section a:hover ::selection {
-  background-color: #FF2B7E;
+  background-color: lightgrey;
   color: #FFFFFF;
   border-bottom: 2px solid #FFFFFF;
 }
@@ -91,14 +91,14 @@ body {
   color: inherit;
   font-size: inherit;
   text-decoration: none;
-  border-bottom: 2px solid #000000;
+  border-bottom: 2px solid grey;
 }
 
 .bio a:hover {
   color: grey;
   font-size: inherit;
   text-decoration: none;
-  border-bottom: 2px solid #FFFFFF;
+  border-bottom: 2px solid grey;
 }
 
 .links {
