@@ -2,6 +2,9 @@ body {
   margin: 0px;
   font-family: 'Futura';
   font-size: 20px;
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: antialiased;
 }
 
 .centered {
@@ -43,7 +46,7 @@ body {
   text-align: center;
 }
   .bio{
-    height: 178vh;
+    height: 170vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -73,7 +76,7 @@ body {
 
 .bio .text {
   max-width: 470px;
-  padding: 0px 5px;
+  padding: 0px 20px;
   text-align: left;
   flex-direction: column;
   justify-content: flex-start;
